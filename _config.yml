@@ -1,4 +1,5 @@
-layout: sidebar
+# layout: sidebar
+layout: stacked
 style: light
 
 plugins:
