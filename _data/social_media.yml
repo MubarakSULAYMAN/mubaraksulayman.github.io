@@ -1,3 +1,11 @@
+phone:
+  name: Phone
+  icon_svg: '<svg height="20""/>  </svg>'
+
+email:
+  name: Gmail
+  icon_svg: '<svg height="20""/>  </svg>'
+
 behance:
   name: Behance
   profile_url_prefix: https://www.behance.net/
