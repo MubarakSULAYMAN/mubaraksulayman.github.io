@@ -82,13 +82,17 @@ topics:
     web_url: https://github.com/topics/laravel
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/laravel/laravel.png
 
+  - name: HTML
+    web_url: https://github.com/topics/html
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: HTML
-    web_url: https://github.com/topics/html
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
+  # - name: Primer
+  #   web_url: https://github.com/topics/primer
+  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/primer/primer.png
 
   - name: SCSS
     web_url: https://github.com/topics/sass
