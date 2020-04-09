@@ -1,7 +1,7 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Projects</h2>
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Projects I have worked</h2>
 <p class="f4 mb-1 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Some of my public GitHub repositories that I've built.</p>
-<p class="f1 mb-2 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Contact me for the private ones.</p>
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+<p class="f6 mb-1 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Contact me for the private repos.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-1">
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
   {% else %}
@@ -16,7 +16,7 @@
 
   {% for repository in filtered_repos | limit: site.projects.limit %}
     {% unless site.projects.exclude.projects contains repository.name %}
-      <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-1">
         {% include repo-card.html %}
       </div>
     {% endunless %}
